@@ -1,9 +1,4 @@
-<!--- STARTEXCLUDE --->
-# Astra DB Tik-Tok
-*50 minutes, Advanced, [Start Building](https://github.com/DataStax-Examples/astra-tik-tok/blob/master/README.md#running-astra-tik-tok)*
 
-A simple Tik-Tok clone running on Astra DB that leverages the Document API.
-<!--- ENDEXCLUDE --->
 
 ![image](https://raw.githubusercontent.com/DataStax-Examples/astra-tik-tok/master/screenshot.jpg)
 
@@ -12,38 +7,6 @@ A simple Tik-Tok clone running on Astra DB that leverages the Document API.
 * Work through a video tutorial to build a simple Tik-Tok clone
 * Leverage Netlify and DataStax Astra DB
   
-## How this works
-We're using Create-React-App and the Astra DB Document API to create a simple Tik-Tok clone.  Follow along in this video tutorial: [https://youtu.be/IATOicvih5A](https://youtu.be/IATOicvih5A).
-
-## Get Started
-To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/astra-tik-tok/blob/master/README.md#running-astra-tik-tok](https://github.com/DataStax-Examples/astra-tik-tok/blob/master/README.md#running-astra-tik-tok).
-
-<!--- STARTEXCLUDE --->
-## Running Astra DB Tik-Tok
-Follow the instructions below to get started.
-
-### Video Content:
-- [https://youtu.be/IATOicvih5A](https://youtu.be/IATOicvih5A)
-- (00:00) Introduction
-- (03:05) Creating our Database on DataStax
-- (06:52) Setting up our App
-- (12:37) Routing Pages
-- (18:02) Creating Components
-- (28:32) Introduction to Data with Netlify and Stargate
-- (30:10) Introduction to using the astrajs/collections
-- (34:01) Posting data to our Database (creating dummy Tik Tok posts)
-- (34:01) Adding authorization to access our Database
-- (43:10) Getting data from our Database (getting all our Tik Tok posts)
-- (50: 32) Viewing all our Data
-- (51:56) Rendering components based on our Data
-- (01:17:01) Editing our Data (following/unfollowing a user)
-- (01:32:57) Adding new Data to our Database (creating a Tik Tok post)
-
-### If you did like this video, please hit the Like and Subscribe button so I know to make more!
-- Twitter: https://twitter.com/ania_kubow
-- YouTube: https://youtube.com/aniakubow
-- Instagram: https://instagram.com/aniakubow
-
 ## Prerequisites
 Let's do some initial setup by creating a serverless(!) database.
 
@@ -72,15 +35,6 @@ Let's do some initial setup by creating a serverless(!) database.
 1. After you have your Application Token, head to the database connect screen and copy the connection information that we'll need later. We'll replace `ASTRA_DB_APPLICATION_TOKEN` with the `Token` value that is part of your Application Token.
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-connect.png)
 
-### Github
-1. Click `Use this template` at the top of the [GitHub Repository](https://github.com/DataStax-Examples/astra-tik-tok):
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/github-use-template.png)
-
-2. Enter a repository name and click 'Create repository from template':
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/github-create-repository.png)
-
-3. Clone the repository:
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/github-clone.png)
 
 
 ## 🚀 Getting Started Paths:
